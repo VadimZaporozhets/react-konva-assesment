@@ -40,7 +40,7 @@ Expected Time: 5 hours
 
 - Add a Generate Preview button +
 
-  - When pressed convert the current artboard to an image
+  - When pressed convert the current artboard to an image +
   - Use javascript + canvas to convert the image to black and white. +
     - For assessment purposes please do not use CSS to display in black and white. +
   - Display the image in a preview window in the corner +
