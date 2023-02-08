@@ -2,3 +2,60 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.toolbar {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  z-index: 100;
+  padding: 20px;
+}
+
+.toolbar input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.toolbar button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.preview {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  right: 20px;
+  background-color: #aea5ae;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
+
+.preview canvas {
+  width: 100%;
+  background: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

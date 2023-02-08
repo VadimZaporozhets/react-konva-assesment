@@ -16,34 +16,34 @@ Expected Time: 5 hours
 
 ## Tasks
 
-- Allow the stars to be dragged
+- Allow the stars to be dragged +
 
-- Allow any given star to be selected with a Konva transfomer
+- Allow any given star to be selected with a Konva transfomer +
 
-  - Customize the visual appearance of the transformer
-  - Clicking the background should deselect
+  - Customize the visual appearance of the transformer +
+  - Clicking the background should deselect +
 
-- Add a toolbar component with the following features:
+- Add a toolbar component with the following features: +
 
-  - A slider that adjusts the number of points for the currently selected star
-  - A input that adjusts the fill color of the currently selected star
-  - A button to download the current design as JSON
-  - A button to allow uploading a JSON file from the previous step and resume editing
+  - A slider that adjusts the number of points for the currently selected star +
+  - A input that adjusts the fill color of the currently selected star +
+  - A button to download the current design as JSON +
+  - A button to allow uploading a JSON file from the previous step and resume editing +
 
-- Resume editing must restore all the following data:
+- Resume editing must restore all the following data: +
 
-  - Position
-  - Rotation
-  - Scale
-  - Fill
-  - Number of Points
+  - Position +
+  - Rotation +
+  - Scale +
+  - Fill +
+  - Number of Points +
 
-- Add a Generate Preview button
+- Add a Generate Preview button +
 
   - When pressed convert the current artboard to an image
-  - Use javascript + canvas to convert the image to black and white.
-    - For assessment purposes please do not use CSS to display in black and white.
-  - Display the image in a preview window in the corner
+  - Use javascript + canvas to convert the image to black and white. +
+    - For assessment purposes please do not use CSS to display in black and white. +
+  - Display the image in a preview window in the corner +
 
 ## Documentation
 

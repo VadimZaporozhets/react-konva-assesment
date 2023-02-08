@@ -5,6 +5,11 @@ const ElementAttrs = {
   x: 0,
   y: 0,
   numPoints: 5,
+  scaleX: 1,
+  scaleY: 1,
+  rotation: 0,
+  points: 5,
+  fill: "#ff7900"
 };
 
 export type ElementAttrsType = typeof ElementAttrs;
